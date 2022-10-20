@@ -62,6 +62,10 @@ a {
 
 /*Navbar*/
 
+.navbar-home {
+    height: 10vh;
+}
+
 #navbar {
     overflow: auto;
     padding-top: 20px;
@@ -100,4 +104,38 @@ a {
 #navbar ul li a:hover,
 #navbar ul li .current {
     text-decoration: underline;
+}
+
+/*Showcase*/
+
+#showcase {
+    height: 80vh;
+    background: #f8f9fa;
+    padding: 150px 0;
+}
+
+#showcase h1 {
+    line-height: 1em;
+}
+
+#showcase .title-outline {
+    color: #fff;
+    -webkit-text-stroke: 3px #000;
+}
+
+.showcase-row {
+    display: flex;
+}
+
+.showcase-row-title {
+    padding-top: 70px;
+}
+
+.showcase-row-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.showcase-row-image img {
+    height: 500px;
 }
