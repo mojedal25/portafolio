@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700;900&display=swap');
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 /*Main Styling*/
+html,
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -49,7 +51,8 @@ a {
     margin: auto;
     max-width: 1300px;
     overflow: auto;
-    padding: 0 20px;
+    padding: 0 10px;
+    
 }
 
 .large {
@@ -68,8 +71,8 @@ a {
 
 #navbar {
     overflow: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #navbar a {
@@ -111,7 +114,8 @@ a {
 #showcase {
     height: 80vh;
     background: #f8f9fa;
-    padding: 150px 0;
+    padding: 50px 0;
+    
 }
 
 #showcase h1 {
@@ -128,14 +132,21 @@ a {
 }
 
 .showcase-row-title {
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .showcase-row-image {
     display: block;
     margin: 0 auto;
+    
 }
 
 .showcase-row-image img {
-    height: 500px;
+    height: 400px;
+}
+
+/* Footer */
+
+.footer-home {
+    height: 10vh;    
 }
