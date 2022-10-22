@@ -53,6 +53,7 @@ a {
     overflow: auto;
     padding: 0 10px;
     
+    
 }
 
 .large {
@@ -142,11 +143,18 @@ a {
 }
 
 .showcase-row-image img {
-    height: 400px;
+    height: 500px;
 }
 
 /* Footer */
 
 .footer-home {
-    height: 10vh;    
+    height: 10vh;
+     
+}
+
+#mainfooter{
+    background: #f8f9fa;
+    text-align: center;
+    padding: 30px;
 }
