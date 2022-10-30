@@ -52,8 +52,7 @@ a {
     max-width: 1300px;
     overflow: auto;
     padding: 0 10px;
-    
-    
+        
 }
 
 .large {
@@ -72,8 +71,9 @@ a {
 
 #navbar {
     overflow: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
 }
 
 #navbar a {
@@ -145,6 +145,46 @@ a {
 .showcase-row-image img {
     height: 500px;
 }
+
+/* About */
+
+#about{
+    background: #f8f9fa;
+    padding: 90px 0;
+}
+
+#about h2 {
+    padding-bottom: 50px;
+}
+
+.about-row {
+    display: flex;
+
+}
+
+.about-row-image img {
+    height: 500px;
+    padding-right: 90px;
+}
+
+#about hr{
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+/* Skill */
+#skills h2{
+    padding-bottom: 50px;
+}
+
+.skills-row {
+    display: flex;
+    padding-bottom: 50px;
+}
+.skill-row-left {
+    width: 50%;
+}
+
 
 /* Footer */
 
