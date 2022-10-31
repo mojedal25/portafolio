@@ -63,6 +63,27 @@ a {
     font-size: 6rem;
 }
 
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-dark {
+    background: #4d4d4d;
+    border: none;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background: #fff;
+    border: 1px solid #4d4d4d;
+    color: #4d4d4d;
+}
+
 /*Navbar*/
 
 .navbar-home {
@@ -234,6 +255,37 @@ a {
     color: #fff;
     padding: 12px 30px;
     border-radius: 20px;
+}
+
+/* Portafolio */
+
+#portafolio {
+    padding: 90px 0;
+    background: #f8f9fa;
+}
+
+#portafolio h2 {
+    padding-bottom: 50px;
+}
+
+.portafolio-row {
+    display: flex;
+}
+
+.portafolio-row-box {
+    margin: 15px;
+    background: #fff;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portafolio-row-box img {
+    width: 100%;
+}
+
+.portafolio-row-box p {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
 }
 
 /* Footer */
