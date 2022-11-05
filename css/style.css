@@ -310,7 +310,7 @@ form .form-control {
 /* Contacto */
 
 #contact {
-    padding: 90px;
+    padding: 50px;
     background: #f8f9fa
 }
 
@@ -329,7 +329,7 @@ form .form-control {
 
 .contact-form h5 {
     text-align: center;
-    padding-bottom: 40%;
+    padding-bottom: 60px;
     font-weight: 900;
 }
 
